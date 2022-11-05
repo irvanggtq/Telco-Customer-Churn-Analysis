@@ -185,6 +185,7 @@ From the AUC-ROC GRAPH and confusion matrix evaluation above, we can know that t
 ### Building a Model With Cross Validation
 Cross-Validation is a statistical method of evaluating and comparing learning algorithms by dividing data into two segments: one used to learn or train a model and the other used to validate the model.
 
+### Hyperparameter Tuning in Logistic Regression
 From the Grid Search, it is found that the best Hyperparameters value for max_iter is 10, n_jobs is None, penalty is 'l2', and solver is 'saga'.
 
 ### Oversampling with SMOTE
