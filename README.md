@@ -180,8 +180,17 @@ AUC - ROC curve is a performance measurement for the classification problems at 
 
 ![auc](https://user-images.githubusercontent.com/113870167/200106526-b2b23b39-2348-4f57-94a7-2c88634d90f2.png)
 <br>
-From the AUC-ROC GRAPH and confusion matrix evaluation above, we can know that the AUC value is 86% and also the model is good fit
+From the AUC-ROC GRAPH and confusion matrix evaluation above, we can know that the AUC value is 86% and also the model is good fit.
 
+### Building a Model With Cross Validation
+Cross-Validation is a statistical method of evaluating and comparing learning algorithms by dividing data into two segments: one used to learn or train a model and the other used to validate the model.
+
+From the Grid Search, it is found that the best Hyperparameters value for max_iter is 10, n_jobs is None, penalty is 'l2', and solver is 'saga'.
+
+### Oversampling with SMOTE
+SMOTE is an oversampling technique where the synthetic samples are generated for the minority class. This algorithm helps to overcome the overfitting problem posed by random oversampling. It focuses on the feature space to generate new instances with the help of interpolation between the positive instances that lie together.
+
+It can be seen that after an evaluation using oversampling with SMOTE, the accuracy value increases, indicating this is good and the model is fit.
 
 # Result
 - No Churn customers there are as much as 73.46%, while churn customers there are as much as 26.54%.
@@ -205,3 +214,27 @@ From the AUC-ROC GRAPH and confusion matrix evaluation above, we can know that t
 - Most churn customers on average are customers who spend 74.4 per month.
 - The average total costs incurred by no churn customers is 1531.8 where it is smaller than a no churn customers.
 - After creating modeling with logistics regression, then the evaluation is made using the AUC/ROC. It can be concluded that the resulting model does not overfit because the AUC train is obtained by 83.53% and the test earned by 85.99%, where the difference is no more than 0.05.
+
+# Recommendation
+- Recommendation for “Customer Churn" segment:
+Focus on increasing customer purchases, such as create marketing campaigns to upsell those currently subscribed to streaming movies and TV services on our other internet services. 
+- Recommendation for “Device Protection" segment:
+Improve the Device Protection service in order to prevent a large number of customer churn who use that service.
+- Recommendation for “Streaming TV" segment:
+Improve the Streaming TV service in order to prevent a large number of customer churn who use that service.
+- Recommendation for “Streaming Movies" segment:
+Improve the Streaming Movies service in order to prevent a large number of customer churn who use that service.
+- Recommendation for “Internet Service" segment:
+Improve the internet service with fiber optic in order to prevent a large number of customer churn who use the fiber optic.
+- Recommendation for “Payment Method" segment:
+Maintain service performance with Mailed Check payment method to prevent customers using that payment method from churn and improve service with Electronic Check payment method so that customers who churn do not get more and more
+- Recommendation for "Contract" segment:
+Reduce the use of month-to-month contracts, because many customers unsubscribe with month-to-month contracts
+- Recommendation for "Technical Support" segment:
+Have to improve the Technical support service in order to prevent a large number of customer churn who use that service.
+- Recommendation for "Partner" segment:
+Have to increase the number of partners in the company in order to reduce unsubscribed customers
+- Recommendation for "Phone Service" segment:
+must improve phone service in order to reduce unsubscribed customers
+- Recommendation for "Multiple line Service" segment:
+must improve Multiple line service in order to reduce unsubscribed customers
