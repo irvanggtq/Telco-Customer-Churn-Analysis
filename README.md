@@ -7,6 +7,7 @@
 How many churn customers and no churn customers?
 
 ![churn no churn](https://user-images.githubusercontent.com/113869968/200099130-6e88407e-0e3a-4a90-9af0-bfe3fd6c3dbe.jpg)
+
 No Churn customers there are as much as 73.46%, while churn customers there are as much as 26.54%.
 
 How many churn customers based on gender?
