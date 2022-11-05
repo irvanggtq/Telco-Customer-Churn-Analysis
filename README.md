@@ -16,8 +16,10 @@
 - Feature Engineering
 - EDA
 - Modeling using Logistic Regression
+- AUC/ROC
 - Build a Model with Cross Validation
 - Hyperparameter Tuning in Logistic Regression
+- Oversampling with SMOTE
 - Evaluate Model
 - Result
 - Recommendation
