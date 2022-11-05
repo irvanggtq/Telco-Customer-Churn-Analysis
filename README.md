@@ -64,15 +64,15 @@
 # Business Understanding
 - Data telco is a company engaged in telecommunication and internet services to make easier for consumers to communicate remotely and surf the internet more easily with offers several services such as time contracts, and various types of services.
 - This case has some business question using the data:
-  - How many customers based on gender type who subscribed and unsubscribed?
-  - How many customers based on senior citizens who subscribed and unsubscribed?
-  - How many customers based on subscribed and unsubscribed customers whether the customer has a partner or has dependents?
-  - How many subscribed and unsubscribed customers based on how long the customer has worked in the company?
-  - How many subscribed and unsubscribed customers based on how many customers use Internet Service, Online Security, Multiple Lines, Online Backup, Device Protection, Tech Support, Streaming TV, Movie Streaming, Payment Methods, and Paperless Billing facilities?
-  - How many customers based on type customer contract unsubscribe and subscribe?
+  - How many customers based on gender type who churn and no churn?
+  - How many customers based on senior citizens who churn and no churn?
+  - How many customers based on churn and no churn customers whether the customer has a partner or has dependents?
+  - How many churn customers and no churn customers based on how long the customers have tenure?
+  - How many churn and no churn customers based on how many customers use Internet Service, Online Security, Multiple Lines, Online Backup, Device Protection, Tech Support, Streaming TV, Movie Streaming, Payment Methods, and Paperless Billing facilities?
+  - How many customers based on type customer contract churn and no churn?
   - How long customers subscribe, monthly subscription fees, and the total cost they spend on services?
   - How about customer churn analysis?
-  -  How to create modeling with Machine Learning to predict customer churn?
+  - How to create modeling with Machine Learning to predict customers churn?
 
 # Data Understanding
 - Data of Telecom Customer with 21 columns and 7043 rows
