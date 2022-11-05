@@ -172,10 +172,15 @@ Data preprocessing is a process of preparing the raw data and making it suitable
 Logistic regression is a supervised machine learning algorithm that accomplishes binary classification tasks by predicting the probability of an outcome, event, or observation. The model delivers a binary or dichotomous outcome limited to two possible outcomes: yes/no, 0/1, or true/false.
 
 ![model](https://user-images.githubusercontent.com/113870167/200106398-f7af4199-9513-4162-bde9-796821079564.png)
+<br>
 from the confusion matrix above, the accuracy value of the Logistic Regression model is 82%
 
 ### AUC-ROC
 AUC - ROC curve is a performance measurement for the classification problems at various threshold settings. ROC is a probability curve and AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes.
+
+![auc](https://user-images.githubusercontent.com/113870167/200106526-b2b23b39-2348-4f57-94a7-2c88634d90f2.png)
+<br>
+from the AUC-ROC GRAPH and confusion matrix evaluation above, we can know that the AUC value is 86% and also the model is good fit
 
 
 # Result
