@@ -1,4 +1,8 @@
 # Telco Customer Churn Analysis
+#Data Cleansing
+- Data cleansing is the process of identifying and resolving corrupt, inaccurate, or irrelevant data. 
+- Common inaccuracies in data include missing values, misplaced entries, and typographical errors. In some cases, data cleansing requires certain values to be filled in or corrected, while in other instances, the values will need to be removed altogether.
+
 # Exploratory Data Analysis
 How many churn customers and no churn customers?
 ![churn no churn](https://user-images.githubusercontent.com/113869968/200098403-d6088a01-ad01-488e-9642-11f2c485b83e.png)
