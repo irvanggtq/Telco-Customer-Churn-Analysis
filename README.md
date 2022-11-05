@@ -159,9 +159,9 @@ The Python library Pandas provides a function called get_dummies to enable one-h
 - map() function
 To convert numerical data variables can use the map() function
 - Scaling
-Feature scaling is about transforming the values of different numerical features to fall within a similar range like each other. The feature scaling is used to prevent the supervised learning models from getting biased toward a specific range of values.
-StandardScaler is a class from sklearn.preprocessing which is used for standardization.
-Standardization is used to center the feature columns at mean 0 with a standard deviation of 1 so that the feature columns have the same parameters as a standard normal distribution.
+  - Feature scaling is about transforming the values of different numerical features to fall within a similar range like each other. The feature scaling is used to prevent the supervised learning models from getting biased toward a specific range of values.
+  - StandardScaler is a class from sklearn.preprocessing which is used for standardization.
+  - Standardization is used to center the feature columns at mean 0 with a standard deviation of 1 so that the feature columns have the same parameters as a standard normal distribution.
 
 # Result
 - No Churn customers there are as much as 73.46%, while churn customers there are as much as 26.54%.
