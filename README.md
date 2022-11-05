@@ -1,4 +1,90 @@
 # Telco Customer Churn Analysis
+
+# Use Case
+- Objective Statement:
+  - To get insight into what type gender who churn and no churn.
+  - To gain insight into senior citizens who churn and no churn.
+  - To gain insight into churn and no churn customers whether the customer has a partner or has dependents.
+  - To gain insight into churn and no churn customers based on how long the customer has worked in the company.
+  - To gain insight into churn and no churn customers based on how many customers use Internet Service, Online Security, Multiple Lines, Online Backup, Device Protection, Tech Support, Streaming TV, Movie Streaming, Payment Methods, and Paperless Billing facilities.
+  - To get insight about what type based on customer contract churn and no churn.
+  - To get insight about how long customers churn, monthly subscription fees, and the total cost they spend on services.
+  - To get insight about customer churn analysis.
+  - To create modeling with Machine Learning to predict customer churn.
+
+- Challenges:
+  - There are some variables containing many missing values
+  - There are some inappropriate data types
+  - There is multicolinerity on some variables
+
+- Methodology / Analytic Technique:
+  - Descriptive analysis
+  - Graph analysis
+  - Modelling using Logistic Regression
+  
+- Business Benefit:
+  - Helping Business Development Team to create product differentiation based on the characteristic for each customer.
+  - Know how to treat customers with spesific criteria, especially between those who are still subscribing and unsubscribed.
+
+- Expected Outcome:
+  - Know how many customers based on gender type who churn and no churn.
+  - Know how many customers based on senior citizens who churn and no churn.
+  - Know how many customers based on churn and no churn customers whether the customer has a partner or has dependents.
+  - Know how many customers based on churn and no churn customers based on how long the customer has worked in the company.
+  - Know how many customers based on churn and no churn customers based on how many customers use Internet Service, Online Security, Multiple Lines, Online Backup, Device Protection, Tech Support, Streaming TV, Movie Streaming, Payment Methods, and Paperless Billing facilities.
+  - Know how many customers based on type customer contract churn and no churn.
+  - Know how long customers churn, monthly subscription fees, and the total cost they spend on services.
+  - Know customer churn analysis.
+  - Create modeling with Machine Learning to predict customer churn
+  
+# Business Understanding
+- Data telco is a company engaged in telecommunication and internet services to make easier for consumers to communicate remotely and surf the internet more easily with offers several services such as time contracts, and various types of services.
+- This case has some business question using the data:
+  - How many customers based on gender type who subscribed and unsubscribed?
+  - How many customers based on senior citizens who subscribed and unsubscribed?
+  - How many customers based on subscribed and unsubscribed customers whether the customer has a partner or has dependents?
+  - How many subscribed and unsubscribed customers based on how long the customer has worked in the company?
+  - How many subscribed and unsubscribed customers based on how many customers use Internet Service, Online Security, Multiple Lines, Online Backup, Device Protection, Tech Support, Streaming TV, Movie Streaming, Payment Methods, and Paperless Billing facilities?
+  - How many customers based on type customer contract unsubscribe and subscribe?
+  - How long customers subscribe, monthly subscription fees, and the total cost they spend on services?
+  - How about customer churn analysis?
+  -  How to create modeling with Machine Learning to predict customer churn?
+
+# Data Understanding
+- Data of Telecom Customer with 21 columns and 7043 rows
+- Source Code : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+- Data Dictionary :  
+  - customerId : Customer number uniquely assigned to each customer.
+  - gender : gender of customer
+  - SeniorCitizen : Whether the customer is a senior citizen or not (1, 0)
+  - partner : Whether the customer has a partner or not (Yes, No)
+  - Dependets : Whether the customer has dependents or not (Yes, No)
+  - tenure : Number of months the customer has stayed with the company
+  - PhoneService : Whether the customer has a phone service or not (Yes, No)
+  - MultipleLines : Whether the customer has multiple lines or not (Yes, No, No phone service)
+  - InternetService : Customer’s internet service provider (DSL, Fiber optic, No)
+  - OnlineSecurity : Whether the customer has online security or not (Yes, No, No internet service)
+  - OnlineBackup : Whether the customer has online backup or not (Yes, No, No internet service)
+  - DeviceProtection : Whether the customer has device protection or not (Yes, No, No internet service)
+  - TechSupport : Whether the customer has tech support or not (Yes, No, No internet service)
+  - StreamingTV : Whether the customer has streaming TV or not (Yes, No, No internet service)
+  - StreamingMovies : Whether the customer has streaming movies or not (Yes, No, No internet service)
+  - Contract : The contract term of the customer (Month-to-month, One year, Two year)
+  - PaperlessBilling : Whether the customer has paperless billing or not (Yes, No)
+  - PaymentMethod : The customer’s payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))
+  - MonthlyCharges : The amount charged to the customer monthly
+  - TotalCharges : The total amount charged to the customer
+  - Churn : The customer churn status (1 - Yes, 0 - No) 
+
+# Data Preparation
+- Code Used:
+  - Python Version: 3.7.15
+  - Packages: Pandas, Numpy, Matplotlib, Seaborn, Sklearn, and Warnings
+
+# Data Profiling
+Data profiling is the process of reviewing source data, understanding structure, content and interrelationships, and identifying potential for data projects.
+
 # Data Cleansing
 - Data cleansing is the process of identifying and resolving corrupt, inaccurate, or irrelevant data. 
 - Common inaccuracies in data include missing values, misplaced entries, and typographical errors. In some cases, data cleansing requires certain values to be filled in or corrected, while in other instances, the values will need to be removed altogether.
