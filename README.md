@@ -150,6 +150,19 @@ Data profiling is the process of reviewing source data, understanding structure,
 
   There is a multicollinearity between tenure with Total Charges and Monthly Charges with Total Charges. Then it must be removed one of the variables from the three variables above before modeling
 
+# Feature Engineering
+Feature engineering is the process of selecting, manipulating, and transforming raw data into features that can be used for creating a predictive model using Machine learning or statistical Modelling.
+
+- One-hot Encoding
+One-hot encoding is a process of converting categorical data variables so they can be provided to machine learning algorithms to improve predictions.
+The Python library Pandas provides a function called get_dummies to enable one-hot encoding
+- map() function
+To convert numerical data variables can use the map() function
+- Scaling
+Feature scaling is about transforming the values of different numerical features to fall within a similar range like each other. The feature scaling is used to prevent the supervised learning models from getting biased toward a specific range of values.
+StandardScaler is a class from sklearn.preprocessing which is used for standardization.
+Standardization is used to center the feature columns at mean 0 with a standard deviation of 1 so that the feature columns have the same parameters as a standard normal distribution.
+
 # Result
 - No Churn customers there are as much as 73.46%, while churn customers there are as much as 26.54%.
 - Most churn customers are female who are 11.44%. Male churn customers are as many as 11.39% and 3.71% are churn customers that their gender is not known. While the remaining 73.46% are no churn customers.
