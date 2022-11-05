@@ -1,5 +1,27 @@
 # Telco Customer Churn Analysis
 
+# Machine Learning Workflow
+- Use Case
+  - Objective Statement
+  - Challenges
+  - Analytic Method/Technique
+  - Business Benefit
+  - Expected Outcome
+- Business Understanding
+- Data Understanding
+- Data Preparation
+- Data Profiling
+- Data Cleansing
+- Data Exploration
+- Feature Engineering
+- EDA
+- Modeling using Logistic Regression
+- Build a Model with Cross Validation
+- Hyperparameter Tuning in Logistic Regression
+- Evaluate Model
+- Result
+- Recommendation
+
 # Use Case
 - Objective Statement:
   - To get insight into what type gender who churn and no churn.
