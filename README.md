@@ -160,6 +160,18 @@ The Python library Pandas provides a function called get_dummies to enable one-h
   - Feature scaling is about transforming the values of different numerical features to fall within a similar range like each other. The feature scaling is used to prevent the supervised learning models from getting biased toward a specific range of values.
   - StandardScaler is a class from sklearn.preprocessing which is used for standardization.
   - Standardization is used to center the feature columns at mean 0 with a standard deviation of 1 so that the feature columns have the same parameters as a standard normal distribution.
+  
+# Preprocessing Data 
+Data preprocessing is a process of preparing the raw data and making it suitable for a machine learning model. It is the first and crucial step while creating a machine learning model.
+
+- Remove TotalCharges Column because its multicolinear column.
+- Checking Importance data using Feature Importance.
+- Split Train and Test data to 80%(Train) and 20%(Test)
+
+# Modelling : Logistic Regression
+Logistic regression is a supervised machine learning algorithm that accomplishes binary classification tasks by predicting the probability of an outcome, event, or observation. The model delivers a binary or dichotomous outcome limited to two possible outcomes: yes/no, 0/1, or true/false.
+### AUC-ROC
+AUC - ROC curve is a performance measurement for the classification problems at various threshold settings. ROC is a probability curve and AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes.
 
 # Result
 - No Churn customers there are as much as 73.46%, while churn customers there are as much as 26.54%.
